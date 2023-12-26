@@ -5,8 +5,9 @@
 
 这是一个基于 PyQt5 的音频播放器项目，采用了 MVC 框架。该项目在 Ubuntu 20.04 下进行开发，可指定播放特定文件夹下的歌曲及顺序播放、单曲循环、随机播放等基本功能。此外，还实现了倍速播放功能。
 
-- 项目地址：
-- 演示视频：
+- 项目地址：https://github.com/yuan2001425/yuanMusic
+- 演示视频：https://www.bilibili.com/video/BV1aa4y1B7WW
+- 博客地址：https://yuan425.blog.csdn.net/article/details/135234255
 
 ## 环境配置
 

@@ -140,8 +140,10 @@ class Controller(QDialog):
         label_str = seconds_to_time(self._model.player.start_second) + '/' + seconds_to_time(total_second_label)
         self._view.label_progress.setText(label_str)
         # 播至最后
-        if self._model.player.start_second == self._model.player.total_second:
-            self.update_pre_play(next_music_idx=-1)  # 播放下一首
+        if self._model.timer.isActive():  # 及时反应出计时器的变化
+            if self._model.player.start_second == self._model.player.total_second:
+                self._model.timer.stop()  # 停止计时器
+                self.update_pre_play(next_music_idx=-1)  # 播放下一首
 
     def music_pause(self):
         # 更改play按钮字样

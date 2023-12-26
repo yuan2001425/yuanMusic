@@ -4,8 +4,9 @@
 
 This is an audio player project based on PyQt5 and follows the MVC framework. The project was developed on Ubuntu 20.04 and supports playing songs in a specific folder, sequential playback, single-song loop, random playback, and other basic functions. Additionally, it implements the feature of variable playback speed.
 
-- Project Repository:
-- Demo Video:
+- Project Repository: https://github.com/yuan2001425/yuanMusic
+- Demo Video: https://www.bilibili.com/video/BV1aa4y1B7WW
+- Blog Address: https://yuan425.blog.csdn.net/article/details/135234255
 
 ## Environment Setup
 
